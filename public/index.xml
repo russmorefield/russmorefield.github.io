@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Russell Morefield</title>
-    <link>http://localhost:41065/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Russell Morefield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>russ@rlmx.tech (Russell Morefield)</managingEditor>
     <webMaster>russ@rlmx.tech (Russell Morefield)</webMaster>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 25 Jul 2025 19:59:30 -0400</lastBuildDate><atom:link href="http://localhost:41065/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jul 2025 19:59:30 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello World!!</title>
-      <link>http://localhost:41065/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 25 Jul 2025 19:59:30 -0400</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:41065/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:41065/about/</link>
+      <link>http://localhost:1313/posts/about/</link>
       <pubDate>Fri, 25 Jul 2025 19:15:06 -0400</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:41065/about/</guid>
+      <guid>http://localhost:1313/posts/about/</guid>
       <description></description>
       
     </item>
