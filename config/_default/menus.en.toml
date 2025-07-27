@@ -11,17 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Random"
-  pageRef = "/random/"
+  name = "Posts"
+  pageRef = "/posts/"
   weight = 10
 
 [[main]]
   name = "Administration"
+  parent = "Posts"
   pageRef = "/administration/"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Projects"
+  parent = "Posts"
   pageRef = "/projects/"
   weight = 10  
 
