@@ -8,8 +8,6 @@ summary = 'Step-by-step guide to building a Hugo website using the Blowfish them
 layout = 'post'
 +++
 
-# A Comprehensive Guide to Building and Deploying a Hugo Website with the Blowfish Theme on GitHub Pages
-
 ### Introduction
 
 #### Purpose and Scope
