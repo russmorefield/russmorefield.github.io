@@ -633,27 +633,6 @@ Here are a few of the most common and useful shortcodes:
     {{< /alert >}}
     ```
     
-- **Icons:** The theme comes with a large library of SVG icons that can be easily embedded in your content. This is much more efficient than using image files for simple graphics.
-    
-    ```markdown
-    This is a sentence with an icon: {{< icon "rocket" >}}.
-    ```
-    
-- **Images:** While you can use standard Markdown for images, the `image` shortcode provides more power, including support for captions, alt text, and responsive image handling, which is crucial for performance and accessibility.
-    
-    ```
-    {{< image src="images/my-photo.jpg" alt="A descriptive caption" caption="This is my photo, taken last summer." >}}
-    ```
-    
-- **Lead Paragraph:** This shortcode is designed to make the first paragraph of an article stand out, a common typographic practice in articles and blog posts.
-    
-    ```markdown
-    {{< lead >}}
-    This is the introductory paragraph of my article. It is styled to be larger and more prominent, drawing the reader's attention and setting the stage for the content that follows.
-    {{< /lead >}}
-    ```
-    
-
 ### 6.4 Extending with Custom Partials
 
 One of the most powerful features of Hugo is its file lookup order, which allows you to override any theme file without modifying the original theme source. This makes updates seamless while giving you full control. [25] You can use this to add custom partials for services like analytics or comments.
