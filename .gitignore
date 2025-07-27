@@ -1,7 +1,13 @@
-# Hugo
-/public/
-/resources/
+#others
+node_modules
+.hugo_build.lock
 
-# OS
+# OS generated files
 .DS_Store
-Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Hugo
+public
