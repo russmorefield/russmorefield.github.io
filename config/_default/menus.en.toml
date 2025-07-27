@@ -23,22 +23,22 @@
 [[main]]
   name = "Projects"
   pageRef = "/projects/"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "MyLab"
   pageRef = "/mylab/"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Reviews"
   pageRef = "/reviews/"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Random Thoughts"
   pageRef = "/random/"
-  weight = 50  
+  weight = 40  
 
 [[main]]
   name = "About"
