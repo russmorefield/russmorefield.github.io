@@ -25,12 +25,18 @@
   name = "Projects"
   parent = "Posts"
   pageRef = "/projects/"
-  weight = 10  
+  weight = 10
+
+[[main]]
+  name = "Random Thoughts"
+  parent = "Posts"
+  pageRef = "/random/"
+  weight = 10   
 
 [[main]]
   name = "About"
   pageRef = "about.md"
-  weight = 30
+  weight = 20
 
 #[[main]]
 #  name = "Parent"
