@@ -1,0 +1,22 @@
+.max-w-prose {
+  max-width: 150ch;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.lg\:ml-auto {
+  margin-left: auto;
+}
+.max-w-full {
+
+}
+
+body * {
+  justify-content: center;
+}
