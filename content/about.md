@@ -1,10 +1,11 @@
 +++
 date = '2025-07-25T19:15:06-04:00'
 draft = false
-title = 'About'
+title = 'About Me'
 tag = 'about'
-catagory = 'about'
+catagories = 'about'
+layout = 'simple'
 +++
-# About
 
-This is the about page.
+
+Something about me.
