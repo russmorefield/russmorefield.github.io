@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="dark"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36691&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="en">
@@ -22,7 +22,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:36691/series/">
+  <link rel="canonical" href="http://localhost:1313/series/">
   
       <link rel="alternate" type="application/rss+xml" href="/series/index.xml" title="Russell Morefield" />
   
@@ -96,7 +96,7 @@
   
 
   
-  <meta property="og:url" content="http://localhost:36691/series/">
+  <meta property="og:url" content="http://localhost:1313/series/">
   <meta property="og:site_name" content="Russell Morefield">
   <meta property="og:title" content="Series">
   <meta property="og:description" content="My awesome website">
@@ -129,13 +129,13 @@
     
       
         
-          <link href="https://linkedin.com/in/username" rel="me">
+          <link href="https://linkedin.com/in/russmorefield" rel="me">
         
       
     
       
         
-          <link href="https://youtube.com/russmorefield" rel="me">
+          <link href="https://www.youtube.com/@russmorefield" rel="me">
         
       
     
@@ -251,12 +251,12 @@
       
         
   <a
-  href="/posts/"
+  href="/administration/"
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="Posts">
-    Posts
+  <p class="text-base font-medium" title="">
+    Administration
   </p>
 </a>
 
@@ -265,11 +265,39 @@
       
         
   <a
-  href=""
+  href="/projects/"
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
   <p class="text-base font-medium" title="">
+    Projects
+  </p>
+</a>
+
+
+
+      
+        
+  <a
+  href="/random/"
+  
+  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  
+  <p class="text-base font-medium" title="">
+    Random Thoughts
+  </p>
+</a>
+
+
+
+      
+        
+  <a
+  href="/about/"
+  
+  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  
+  <p class="text-base font-medium" title="About Me">
     About
   </p>
 </a>
@@ -422,12 +450,12 @@
               
   <li class="mt-1">
   <a
-    href="/posts/"
+    href="/administration/"
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Posts">
-      Posts
+    <p class="text-bg font-bg" title="">
+      Administration
     </p>
   </a>
 </li>
@@ -438,11 +466,43 @@
               
   <li class="mt-1">
   <a
-    href=""
+    href="/projects/"
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-bg font-bg" title="">
+      Projects
+    </p>
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/random/"
+    
+    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-bg font-bg" title="">
+      Random Thoughts
+    </p>
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/about/"
+    
+    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-bg font-bg" title="About Me">
       About
     </p>
   </a>
@@ -463,6 +523,16 @@
 
 
 
+
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
 
 
   </div>
@@ -532,12 +602,40 @@
   
   
     
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+        <ul class="flex flex-col list-none sm:flex-row">
+          
+            <li
+              class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+            <li
+              class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/categories/"
+                title="Categories">
+                
+                Categories
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    
   
   <div class="flex items-center justify-between">
     
     
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          Copy, <em>right?</em> :thinking_face:
+          © 2025 Russell Morefield
       </p>
     
 
@@ -573,7 +671,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="http://localhost:36691/">
+  data-url="http://localhost:1313/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">

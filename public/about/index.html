@@ -14,12 +14,12 @@
   <meta name="theme-color">
 
   
-  <title>About &middot; Russell Morefield</title>
-    <meta name="title" content="About &middot; Russell Morefield">
+  <title>About Me &middot; Russell Morefield</title>
+    <meta name="title" content="About Me &middot; Russell Morefield">
 
   
   <meta name="description" content="My awesome website">
-  
+  <meta name="keywords" content="about,">
   
   
   <link rel="canonical" href="http://localhost:1313/about/">
@@ -96,25 +96,26 @@
   
   <meta property="og:url" content="http://localhost:1313/about/">
   <meta property="og:site_name" content="Russell Morefield">
-  <meta property="og:title" content="About">
+  <meta property="og:title" content="About Me">
   <meta property="og:description" content="My awesome website">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2025-07-25T19:15:06-04:00">
     <meta property="article:modified_time" content="2025-07-25T19:15:06-04:00">
+    <meta property="article:tag" content="About">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="About">
+  <meta name="twitter:title" content="About Me">
   <meta name="twitter:description" content="My awesome website">
 
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Russell Morefield",
-    "name": "About",
-    "headline": "About",
+    "articleSection": "",
+    "name": "About Me",
+    "headline": "About Me",
     
     
     "inLanguage": "en",
@@ -129,10 +130,10 @@
     
     "dateModified": "2025-07-25T19:15:06-04:00",
     
-    
+    "keywords": ["about"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "7"
+    "wordCount": "285"
   }]
   </script>
 
@@ -156,13 +157,13 @@
     
       
         
-          <link href="https://linkedin.com/in/username" rel="me">
+          <link href="https://linkedin.com/in/russmorefield" rel="me">
         
       
     
       
         
-          <link href="https://youtube.com/russmorefield" rel="me">
+          <link href="https://www.youtube.com/@russmorefield" rel="me">
         
       
     
@@ -278,12 +279,40 @@
       
         
   <a
-  href="/posts/"
+  href="/administration/"
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="Posts">
-    Posts
+  <p class="text-base font-medium" title="">
+    Administration
+  </p>
+</a>
+
+
+
+      
+        
+  <a
+  href="/projects/"
+  
+  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  
+  <p class="text-base font-medium" title="">
+    Projects
+  </p>
+</a>
+
+
+
+      
+        
+  <a
+  href="/random/"
+  
+  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  
+  <p class="text-base font-medium" title="">
+    Random Thoughts
   </p>
 </a>
 
@@ -296,7 +325,7 @@
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="About">
+  <p class="text-base font-medium" title="About Me">
     About
   </p>
 </a>
@@ -449,12 +478,44 @@
               
   <li class="mt-1">
   <a
-    href="/posts/"
+    href="/administration/"
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Posts">
-      Posts
+    <p class="text-bg font-bg" title="">
+      Administration
+    </p>
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/projects/"
+    
+    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-bg font-bg" title="">
+      Projects
+    </p>
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/random/"
+    
+    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-bg font-bg" title="">
+      Random Thoughts
     </p>
   </a>
 </li>
@@ -469,7 +530,7 @@
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="About">
+    <p class="text-bg font-bg" title="About Me">
       About
     </p>
   </a>
@@ -491,6 +552,16 @@
 
 
 
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
+
 
   </div>
 </div>
@@ -506,285 +577,63 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
-  
-
-
-  <article>
-    
-
-
-    <header id="single_header" class="mt-5 max-w-prose">
+  <article class="max-w-full">
+    <header>
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        About
+        About Me
       </h1>
-      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-        
-
-
-
-
-
-  
-  
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-07-25T19:15:06-04:00">25 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>7 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-      </div>
-
-      
-      
-      
-      
-      
-
-      
-
-      
-
-        
-          
-          
-<div class="flex author">
-  
-    
-    
-      
-    
-    
-      
-        
-      
-      <img
-        class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4"
-        width="96"
-        height="96"
-        alt="Russell Morefield"
-        src="/img/me-edit_hu_ee65ece98175f3ec.png">
-    
-  
-  <div class="place-self-center">
-    
-      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-        Author
-      </div>
-      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-        Russell Morefield
-      </div>
-    
-    
-      <div class="text-sm text-neutral-700 dark:text-neutral-400">IT professional, Data Analyst, and tech enthusiast. I love exploring technology, development, and life.</div>
-    
-    <div class="text-2xl sm:text-lg">
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="mailto:russ@rlmx.tech"
-          target="_blank"
-          aria-label="Email"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
-
-  </span>
-
-</span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://github.com/russmorefield"
-          target="_blank"
-          aria-label="Github"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-
-  </span>
-
-</span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://linkedin.com/in/username"
-          target="_blank"
-          aria-label="Linkedin"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-
-  </span>
-
-</span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://youtube.com/russmorefield"
-          target="_blank"
-          aria-label="Youtube"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-
-  </span>
-
-</span></a
-        >
-      
-    
-  </div>
-
-</div>
-  </div>
-</div>
-
-        
-
-        
-
-        
-          <div class="mb-5"></div>
-        
-
-      
-
     </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      <p>With over 20 years in the technology space, I bridge the critical gap between <strong>data analytics</strong> and the underlying <strong>IT infrastructure</strong>. My passion is transforming complex datasets into clear, actionable insights that drive business growth. But unlike many analysts, my perspective is built from the ground up—literally from the server racks to the board room.</p>
+<p>My journey began in <strong>operations and systems management</strong>, where I learned firsthand that technology&rsquo;s true value lies in solving tangible business problems. I managed complex inventory systems for Disney vendors, oversaw IT for defense contractors, and honed my skills by implementing <strong>workflow improvements that boosted profitability by 10%</strong>. This experience taught me to think about business needs first.</p>
+<hr>
 
-    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-      
-
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-
-
-
-        <div class="article-content max-w-prose mb-20">
-          
-<h1 class="relative group">About 
-    <div id="about" class="anchor"></div>
+<h2 class="relative group">💼 What I Do Today 
+    <div id="-what-i-do-today" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#about" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-what-i-do-today" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
-<p>This is the about page.</p>
+</h2>
+<p>Today, I channel that foundation into my work as a <strong>Data and Systems Analyst</strong>, specializing in:</p>
+<ul>
+<li>
+<p>🔹 <strong>Data Analysis &amp; Visualization</strong><br>
+Using <strong>SQL</strong>, <strong>Tableau</strong>, and <strong>Grafana</strong> to dive deep into data, uncover hidden trends, and build intuitive dashboards that empower leaders to make informed decisions.</p>
+</li>
+<li>
+<p>🔹 <strong>System &amp; Workflow Automation</strong><br>
+Leveraging <strong>Microsoft Power Automate</strong>, <strong>SharePoint</strong>, and <strong>n8n</strong> to eliminate manual processes, enhance operational efficiency, and build scalable, automated systems.</p>
+</li>
+<li>
+<p>🔹 <strong>Full-Stack Infrastructure Management</strong><br>
+Drawing on extensive experience with <strong>Windows/Linux servers</strong>, <strong>Proxmox/Hyper-V virtualization</strong>, and <strong>Docker/Kubernetes</strong> containerization to build and maintain reliable, high-performance environments that data-driven organizations depend on.</p>
+</li>
+<li>
+<p>🔹 <strong>Networking &amp; Security</strong><br>
+Implementing robust security postures using technologies like <strong>pfSense</strong>, <strong>Cisco Meraki</strong>, and <strong>Cloudflare</strong> to protect critical data assets.</p>
+</li>
+</ul>
+<hr>
 
-          
-          
-          
-        </div>
-
-        
-
-        
-
-        
-
-        
-
-      </div>
-
-      
-      
-        
-        
-          
-          
-        
-        
-        
-        <script
-          type="text/javascript"
-          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
-          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_about.md"
-          data-oid-likes="likes_about.md"></script>
-      
+<h2 class="relative group">🔧 My Mindset 
+    <div id="-my-mindset" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-my-mindset" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>I am a dedicated <strong>continuous learner</strong>, always exploring emerging technologies like <strong>AI</strong> and <strong>open-source tools</strong> to find new ways to solve challenges. I thrive on <strong>untangling complex problems</strong> and building solutions that are not only elegant and efficient but also deliver <strong>measurable business value</strong>.</p>
 
     </section>
-    <footer class="pt-8 max-w-prose print:hidden">
+    <footer class="pt-8">
       
-  
 
-
-      
     </footer>
   </article>
 
@@ -802,12 +651,40 @@
   
   
     
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+        <ul class="flex flex-col list-none sm:flex-row">
+          
+            <li
+              class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+            <li
+              class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/categories/"
+                title="Categories">
+                
+                Categories
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    
   
   <div class="flex items-center justify-between">
     
     
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          Copy, <em>right?</em> :thinking_face:
+          © 2025 Russell Morefield
       </p>
     
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Russell Morefield</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Russell Morefield</description>
+    <title>Security on Russell Morefield</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on Russell Morefield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>russ@rlmx.tech (Russell Morefield)</managingEditor>
     <webMaster>russ@rlmx.tech (Russell Morefield)</webMaster>
     <copyright>&amp;copy; 2025 Russell Morefield</copyright>
-    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SSH Management Utilities</title>
@@ -18,16 +18,6 @@
       <author>russ@rlmx.tech (Russell Morefield)</author>
       <guid>http://localhost:1313/administration/ssh-management-utilities/</guid>
       <description>Guides and scripts for securing and managing SSH configurations, keys, and connections.</description>
-      
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 25 Jul 2025 19:15:06 -0400</pubDate>
-      <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
       
     </item>
     
