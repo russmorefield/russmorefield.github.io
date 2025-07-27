@@ -1,0 +1,65 @@
+# .github/workflows/bump-version.yml
+
+name: Bump Version
+
+on:
+  # This allows the workflow to be run manually from the Actions tab on GitHub
+  workflow_dispatch:
+    inputs:
+      bump_type:
+        description: 'The type of version bump to perform (patch, minor, or major).'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+        - patch
+        - minor
+        - major
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    permissions:
+      # This permission is required to allow the workflow to push commits and tags
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # This token is automatically provided by GitHub and has the necessary permissions
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git User
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions-bot@github.com"
+
+      - name: Get current version from file
+        id: get_version
+        run: echo "CURRENT_VERSION=$(cat VERSION)" >> $GITHUB_ENV
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install SemVer Tool
+        run: npm install -g semver
+
+      - name: Bump version number
+        id: bump_version
+        run: echo "NEW_VERSION=$(semver -i ${{ github.event.inputs.bump_type }} ${{ env.CURRENT_VERSION }})" >> $GITHUB_ENV
+
+      - name: Update VERSION file
+        run: echo "${{ env.NEW_VERSION }}" > VERSION
+
+      - name: Commit new VERSION file
+        run: |
+          git add VERSION
+          git commit -m "chore: Bump version to ${{ env.NEW_VERSION }}"
+          git push
+
+      - name: Create new Git tag
+        run: |
+          git tag v${{ env.NEW_VERSION }}
+          git push origin v${{ env.NEW_VERSION }}
