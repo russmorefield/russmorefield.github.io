@@ -10,40 +10,10 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Posts"
-#  pageRef = "/posts/"
-#  weight = 10
-
 [[main]]
-  name = "Administration"
-  pageRef = "/administration/"
+  name = "Posts"
+  pageRef = "/posts/"
   weight = 10
-
-[[main]]
-  name = "MyLab"
-  pageRef = "/mylab/"
-  weight = 20
-
-[[main]]
-  name = "Projects"
-  pageRef = "/projects/"
-  weight = 30
-
-[[main]]
-  name = "Random Thoughts"
-  pageRef = "/random/"
-  weight = 40 
-
-[[main]]
-  name = "Reviews"
-  pageRef = "/reviews/"
-  weight = 50
-
-[[main]]
-  name = "Tableau"
-  pageRef = "/tableau/"
-  weight = 60
 
 [[main]]
   name = "About"
