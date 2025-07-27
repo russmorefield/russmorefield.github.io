@@ -4,7 +4,7 @@
 
 title = "Russell Morefield"
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://russmorefield.github.io/"
+baseURL = "https://www.russmorefield.com/"
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
