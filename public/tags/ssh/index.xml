@@ -13,12 +13,12 @@
     
     <item>
       <title>SSH Management Utilities</title>
-      <link>http://localhost:1313/ssh_management_utilities/</link>
+      <link>http://localhost:1313/posts/ssh_management_utilities/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:1313/ssh_management_utilities/</guid>
+      <guid>http://localhost:1313/posts/ssh_management_utilities/</guid>
       <description>Guides and scripts for securing and managing SSH configurations, keys, and connections.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ssh_management_utilities/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ssh_management_utilities/featured.jpg" />
     </item>
     
   </channel>

@@ -13,22 +13,22 @@
     
     <item>
       <title>A Guide to Building and Deploying a Hugo Website</title>
-      <link>http://localhost:1313/hugo-blowfish-github-guide/</link>
+      <link>http://localhost:1313/posts/hugo-blowfish-github-guide/</link>
       <pubDate>Sun, 27 Jul 2025 16:05:00 -0400</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:1313/hugo-blowfish-github-guide/</guid>
+      <guid>http://localhost:1313/posts/hugo-blowfish-github-guide/</guid>
       <description>Step-by-step guide to building a Hugo website using the Blowfish theme and deploying it on GitHub Pages.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hugo-blowfish-github-guide/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/hugo-blowfish-github-guide/featured.png" />
     </item>
     
     <item>
       <title>SSH Management Utilities</title>
-      <link>http://localhost:1313/ssh_management_utilities/</link>
+      <link>http://localhost:1313/posts/ssh_management_utilities/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:1313/ssh_management_utilities/</guid>
+      <guid>http://localhost:1313/posts/ssh_management_utilities/</guid>
       <description>Guides and scripts for securing and managing SSH configurations, keys, and connections.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/ssh_management_utilities/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ssh_management_utilities/featured.jpg" />
     </item>
     
     <item>

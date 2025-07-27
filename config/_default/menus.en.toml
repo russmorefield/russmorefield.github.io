@@ -12,25 +12,13 @@
 
 [[main]]
   name = "Posts"
-  pageRef = "/content/"
+  pageRef = "/posts/"
   weight = 10
 
 [[main]]
-  name = "Hugo Blowfish GitHub Guide"
-  parent = "Posts"
-  pageRef = "/hugo-blowfish-github-guide/"
-  weight = 20
-
-[[main]]
-  name = "SSH Management Utilities"
-  parent = "Posts"
-  pageRef = "/ssh_management_utilities/"
-  weight = 30
-
-[[main]]
   name = "About"
-  pageRef = "/about.md/"
-  weight = 40
+  pageRef = "/about"  # Corrected path, no.md
+  weight = 20
 
 #[[main]]
 #  name = "Parent"
