@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+    <loc>https://www.russmorefield.com/</loc>
+    <lastmod>2025-07-27T16:05:00-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+    <loc>https://www.russmorefield.com/projects/</loc>
+    <lastmod>2025-07-27T16:05:00-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/hugo-blowfish-github-guide/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+    <loc>https://www.russmorefield.com/projects/hugo-blowfish-github-guide/</loc>
+    <lastmod>2025-07-27T16:05:00-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/administration/</loc>
+    <loc>https://www.russmorefield.com/administration/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/administration/ssh-management-utilities/</loc>
+    <loc>https://www.russmorefield.com/administration/ssh-management-utilities/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.russmorefield.com/about/</loc>
     <lastmod>2025-07-25T19:15:06-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/mylab/</loc>
+    <loc>https://www.russmorefield.com/mylab/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/random/</loc>
+    <loc>https://www.russmorefield.com/random/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/reviews/</loc>
+    <loc>https://www.russmorefield.com/reviews/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tableau/</loc>
+    <loc>https://www.russmorefield.com/tableau/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

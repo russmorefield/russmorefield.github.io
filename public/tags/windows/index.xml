@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Russell Morefield</title>
-    <link>http://localhost:1313/tags/windows/</link>
+    <link>https://www.russmorefield.com/tags/windows/</link>
     <description>Recent content in Windows on Russell Morefield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>russ@rlmx.tech (Russell Morefield)</managingEditor>
     <webMaster>russ@rlmx.tech (Russell Morefield)</webMaster>
     <copyright>&amp;copy; 2025 Russell Morefield</copyright>
-    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.russmorefield.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SSH Management Utilities</title>
-      <link>http://localhost:1313/administration/ssh-management-utilities/</link>
+      <link>https://www.russmorefield.com/administration/ssh-management-utilities/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:1313/administration/ssh-management-utilities/</guid>
+      <guid>https://www.russmorefield.com/administration/ssh-management-utilities/</guid>
       <description>Guides and scripts for securing and managing SSH configurations, keys, and connections.</description>
       
     </item>

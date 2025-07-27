@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Russell Morefield</title>
-    <link>http://localhost:1313/tags/about/</link>
+    <link>https://www.russmorefield.com/tags/about/</link>
     <description>Recent content in About on Russell Morefield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>russ@rlmx.tech (Russell Morefield)</managingEditor>
     <webMaster>russ@rlmx.tech (Russell Morefield)</webMaster>
     <copyright>&amp;copy; 2025 Russell Morefield</copyright>
-    <lastBuildDate>Fri, 25 Jul 2025 19:15:06 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jul 2025 19:15:06 -0400</lastBuildDate><atom:link href="https://www.russmorefield.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.russmorefield.com/about/</link>
       <pubDate>Fri, 25 Jul 2025 19:15:06 -0400</pubDate>
       <author>russ@rlmx.tech (Russell Morefield)</author>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.russmorefield.com/about/</guid>
       <description></description>
       
     </item>

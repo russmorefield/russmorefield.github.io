@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Russell Morefield</title>
-    <link>http://localhost:1313/reviews/</link>
+    <link>https://www.russmorefield.com/reviews/</link>
     <description>Recent content on Russell Morefield</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>russ@rlmx.tech (Russell Morefield)</managingEditor>
     <webMaster>russ@rlmx.tech (Russell Morefield)</webMaster>
     <copyright>&amp;copy; 2025 Russell Morefield</copyright>
-    <atom:link href="http://localhost:1313/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.russmorefield.com/reviews/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
