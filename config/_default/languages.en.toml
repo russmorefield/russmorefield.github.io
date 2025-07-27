@@ -12,7 +12,7 @@ title = "Russell Morefield"
   logo = "img/rlmx_logo_100x100.png"
   secondaryLogo = "img/1.png"
   description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "&copy; 2023 Russell Morefield"
 
 [params.author]
   name = "Russell Morefield"
