@@ -26,14 +26,24 @@
   weight = 20
 
 [[main]]
+  name = "MyLab"
+  pageRef = "/mylab/"
+  weight = 30
+
+[[main]]
+  name = "Reviews"
+  pageRef = "/reviews/"
+  weight = 40
+
+[[main]]
   name = "Random Thoughts"
   pageRef = "/random/"
-  weight = 30  
+  weight = 50  
 
 [[main]]
   name = "About"
   pageRef = "about.md"
-  weight = 40
+  weight = 60
 
 #[[main]]
 #  name = "Parent"
