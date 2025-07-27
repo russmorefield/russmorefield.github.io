@@ -39,7 +39,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/mylab/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/random/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/reviews/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
