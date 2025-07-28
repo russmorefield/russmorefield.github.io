@@ -11,17 +11,17 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Posts 📜"
+  name = "Posts"
   pageRef = "/posts/"
   weight = 10
 
 [[main]]
-  name = "Tableau Portfolio 🗂️"
+  name = "Tableau Portfolio"
   pageRef = "/tableau"
   weight = 15
 
 [[main]]
-  name = "About Me 👤"
+  name = "About Me"
   pageRef = "/about"  # Corrected path, no.md
   weight = 20
 
