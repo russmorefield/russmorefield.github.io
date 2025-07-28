@@ -9,9 +9,9 @@ title = "Russell Morefield"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/rlmx_logo_100x100.png"
+  logo = "img/me-edit.png"
   secondaryLogo = "img/1.png"
-  description = "My awesome website"
+  description = "Russell Morefield's personal website"
   copyright = "&copy; 2025 Russell Morefield"
 
 [params.author]
