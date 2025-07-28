@@ -7,8 +7,6 @@ categories = ['tableau']
 layout = 'simple'
 +++
 
-## Tableau Dashboard Portfolio
-
 Here is a collection of dashboards I have created to showcase my data visualization and analysis skills. You can interact with each dashboard directly on this page.
 
 ---
