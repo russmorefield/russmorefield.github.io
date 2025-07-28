@@ -7,7 +7,7 @@ categories = ['tableau']
 layout = 'simple'
 +++
 
-## My Tableau Dashboard Portfolio
+## Tableau Dashboard Portfolio
 
 Here is a collection of dashboards I have created to showcase my data visualization and analysis skills. You can interact with each dashboard directly on this page.
 
@@ -15,7 +15,7 @@ Here is a collection of dashboards I have created to showcase my data visualizat
 
 ### Education & Career Success
 
-This dashboard explores the relationship between academic performance and career success using a synthetic dataset. It includes 5000 records of students' educational backgrounds, skills, and career outcomes, allowing for analysis of factors influencing salaries and job success. [1]
+This dashboard explores the relationship between academic performance and career success using a synthetic dataset. It includes 5000 records of students' educational backgrounds, skills, and career outcomes, allowing for analysis of factors influencing salaries and job success.
 
 <tableau-viz id='tableau-viz-1' src='https://public.tableau.com/views/education_career_insights_17516378474160/FieldofStudy' width='100%' height='800' hide-tabs toolbar='bottom'></tableau-viz>
 
@@ -23,7 +23,7 @@ This dashboard explores the relationship between academic performance and career
 
 ### AirBnB Average Price by Room
 
-This dashboard visualizes AirBnB data from Seattle, Washington in 2016, focusing on the average price by room type. [1]
+This dashboard visualizes AirBnB data from Seattle, Washington in 2016, focusing on the average price by room type.
 
 <tableau-viz id='tableau-viz-2' src='https://public.tableau.com/views/AirBnBFullProject_17514798491460/Dashboard1' width='100%' height='800' hide-tabs toolbar='bottom'></tableau-viz>
 
