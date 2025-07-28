@@ -1,6 +1,6 @@
 +++
 date = '2025-07-27T21:11:29-04:00'
-draft = true
+draft = false
 title = 'Bind9 Authoritative Dns Setup'
 tags = ['bind9','ubuntu']
 layout = 'post'
