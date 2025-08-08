@@ -29,7 +29,7 @@ cover:
     hidden: false
 ---
 
-A fully integrated media server solution designed for homelab enthusiasts and self-hosters. This stack combines Jellyfin for media streaming, the complete *arr suite for automated media management, and essential supporting applications for downloading, organizing, and serving movies, TV shows, music, and photos. With built-in support for Intel Arc A310 hardware-accelerated transcoding, secure VPN routing for torrent traffic, and automated container updates, the Starr Apps Stack delivers a robust, scalable, and easy-to-maintain platform for managing your entire home media library. Whether you're building a new server or upgrading an existing setup, this guide provides step-by-step instructions for installation, configuration, and optimization on modern Linux systems.
+A fully integrated media server solution designed for homelab enthusiasts and self-hosters. This stack combines Jellyfin for media streaming, the complete *arr suite for automated media management, and essential supporting applications for downloading, organizing, and serving movies, TV shows, music, and photos. With built-in support for Intel Arc A310 hardware-accelerated transcoding, secure VPN routing for torrent traffic, and automated container updates, the Starr Apps Stack delivers a robust, scalable, and easy-to-maintain platform for managing your entire home media library. Whether you're building a new server or upgrading an existing setup, this guide provides step-by-step instructions for installation, configuration, and optimization on modern Ubuntu systems.
 
 ## 🚀 Prerequisites
 
