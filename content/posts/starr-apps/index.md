@@ -22,16 +22,32 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<img-url>" # Replace with your image URL
+    image: "featured.png" # Replace with your image URL
     alt: "Starr Apps Stack Banner"
     caption: "Complete Media Server Stack"
     relative: false
     hidden: false
 ---
 
-# 🌟 Starr Apps Stack
+A fully integrated media server solution designed for homelab enthusiasts and self-hosters. This stack combines Jellyfin for media streaming, the complete *arr suite for automated media management, and essential supporting applications for downloading, organizing, and serving movies, TV shows, music, and photos. With built-in support for Intel Arc A310 hardware-accelerated transcoding, secure VPN routing for torrent traffic, and automated container updates, the Starr Apps Stack delivers a robust, scalable, and easy-to-maintain platform for managing your entire home media library. Whether you're building a new server or upgrading an existing setup, this guide provides step-by-step instructions for installation, configuration, and optimization on modern Linux systems.
 
-A comprehensive media server stack featuring Jellyfin, the *arr suite, and supporting applications for a complete home media solution.
+## 🚀 Prerequisites
+
+1. Ubuntu Server 24.04 LTS (Headless)
+2. Intel Arc A310 ECO
+3. Docker and Docker Compose installed
+4. Create the required network:
+
+   ```bash
+   docker network create starr-apps
+   ```
+
+5. Required directory structure:
+
+   ```plaintext
+   /home/$USER/docker/appdata/
+   /home/$USER/data/
+   ```
 
 ## 📋 Services
 
@@ -49,21 +65,79 @@ A comprehensive media server stack featuring Jellyfin, the *arr suite, and suppo
 - **Gluetun**: VPN client container
 - **Watchtower**: Automatic container updates
 
-## 🚀 Prerequisites
 
-1. Docker and Docker Compose installed
-2. Create the required network:
+## Intel Arc A310 ECO Setup for Jellyfin Hardware Transcoding (Ubuntu 24.04 LTS)
+
+This guide provides a step-by-step procedure for installing, configuring, and verifying your new Intel Arc A310 ECO graphics card for hardware-accelerated transcoding in Jellyfin on a headless Ubuntu 24.04.2 LTS server. This guide is focused on a Docker-based installation. Following these steps methodically will ensure optimal performance, stability, and power efficiency.
+
+## Section 1: Pre-Installation: Critical BIOS/UEFI Configuration
+
+Before installing the GPU, it is essential to configure your server's motherboard BIOS/UEFI. These settings are mandatory for the Arc A310 to perform correctly and operate at its lowest idle power state, a crucial factor for a 24/7 server.
+
+To enter your BIOS/UEFI setup, restart your server and press the appropriate key during boot (commonly `Del`, `F2`, or `F12`).
+
+
+1. **Enable Resizable BAR (ReBAR):** This feature allows the CPU to access the GPU's entire video memory at once, improving performance. While its impact on transcoding is less dramatic than in gaming, it is still recommended for stability and optimal performance, particularly with tone-mapping.
+
+  - Navigate to a menu such as "PCI Subsystem Settings" or "Advanced."
+  - Locate the option for **"Re-Size BAR Support"** and set it to `Enabled` or `Auto`.
+
+2. **Enable Active State Power Management (ASPM):** This is the most critical step for achieving low power consumption when the GPU is idle. Without these settings, the Arc A310 can draw a significant amount of power (~40W) even when doing nothing. Correct configuration can reduce this to a much more server-appropriate level (~10W).
+
+  - Find the "PCI Express" or "Power Management" settings.
+  - Set **`Native ASPM`** to `Enabled`. This allows the operating system to manage PCIe power states.
+  - Enable **`PCI Express Root Port ASPM`**.
+  - Within the ASPM options, ensure **`L1 Substates`** is selected or enabled. This specific sub-state allows the PCIe link to enter its deepest low-power mode.
+
+After configuring these settings, save your changes and shut down the server to physically install the Intel Arc A310 ECO.
+
+## Section 2: Driver and Software Installation on Ubuntu 24.04 LTS
+
+Ubuntu 24.04 LTS includes a modern kernel (6.8 or newer) that supports the Intel Arc architecture out of the box, simplifying the setup process significantly compared to older operating systems.
+
+
+1. Update System Packages:
+
+  Ensure your server's package list and all installed software are fully up to date.
+
+  ```bash
+  sudo apt update && sudo apt upgrade -y
+  ```
+
+After installing the software, it is crucial to verify that the driver is loaded correctly and that the GPU's low-level firmware is operational.
+
+
+1. Verify Microcontroller Firmware (GuC/HuC):
+
+   The Graphics (GuC) and HEVC/H.265 (HuC) microcontrollers are essential for the GPU's hardware encoding and power management features to function correctly.
+
+   - **Check GuC Status:**
+
+     ```bash
+     sudo cat /sys/kernel/debug/dri/0/gt/uc/guc_info
+     ```
+
+     The output should contain the line `status: RUNNING`.
+
+   - **Check HuC Status:**
+
+     ```bash
+     sudo cat /sys/kernel/debug/dri/0/gt/uc/huc_info
+     ```
+
+     The output should also contain the line `status: RUNNING`.
+
+   - **Troubleshooting:** If either firmware is not running, it may indicate an issue with the `linux-firmware` package. On a standard Ubuntu 24.04 installation, this should not be an issue. If it is, ensure the `dg2_*.bin` files are present in `/lib/firmware/i915/`.
+
+2. Verify VA-API Driver and Codec Support:
+
+   Use the vainfo utility to confirm that the VA-API driver is loaded and to see a list of supported codecs. This is a direct confirmation that Jellyfin will be able to see and use the GPU.
 
    ```bash
-   docker network create starr-apps
+   vainfo --display drm --device /dev/dri/renderD128
    ```
 
-3. Required directory structure:
-
-   ```plaintext
-   /home/$USER/docker/appdata/
-   /home/$USER/data/
-   ```
+   The output should be a long list of supported entrypoints, including `VAProfileHEVCMain10` (for 10-bit HEVC), `VAProfileVP9Profile2` (for VP9), and `VAProfileAV1Profile0` (for AV1), confirming the GPU's full capabilities are available to the system.
 
 ## 📦 Installation
 
