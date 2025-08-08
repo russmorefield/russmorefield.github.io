@@ -65,7 +65,6 @@ A fully integrated media server solution designed for homelab enthusiasts and se
 - **Gluetun**: VPN client container
 - **Watchtower**: Automatic container updates
 
-
 ## Intel Arc A310 ECO Setup for Jellyfin Hardware Transcoding (Ubuntu 24.04 LTS)
 
 This guide provides a step-by-step procedure for installing, configuring, and verifying your new Intel Arc A310 ECO graphics card for hardware-accelerated transcoding in Jellyfin on a headless Ubuntu 24.04.2 LTS server. This guide is focused on a Docker-based installation. Following these steps methodically will ensure optimal performance, stability, and power efficiency.
