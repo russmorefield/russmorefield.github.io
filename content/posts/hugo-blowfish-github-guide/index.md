@@ -207,8 +207,6 @@ This command generates several folders, each with a specific purpose for organiz
 |`static`|Stores static assets like images, CSS, and JavaScript files that do not need processing.|
 |`themes`|Where themes are placed. Each theme has its own subdirectory.|
 
-**
-
 ### 2.2 Initializing the Git Repository
 
 To use a Git-based workflow for managing the theme, the project folder itself must be a Git repository. This allows Git to track not only the project's files but also its dependencies, such as the theme submodule. [12, 14]
@@ -801,74 +799,74 @@ The setup detailed in this guide is a complete and production-ready starting poi
 
 ## References
 
-[1] Hugo Documentation. (n.d.). _Install Git_. Retrieved July 27, 2025, from [https://gohugo.io/installation/git/](https://www.google.com/search?q=https://gohugo.io/installation/git/ "null")
+[1] Hugo Documentation. (n.d.). _Install Git_. Retrieved July 27, 2025, from [https://gohugo.io/installation/git/](https://gohugo.io/installation/git/)
 
-[2] Blowfish Theme Documentation. (n.d.). _Installation_. Retrieved July 27, 2025, from [https://blowfish.page/docs/installation/](https://blowfish.page/docs/installation/ "null")
+[2] Blowfish Theme Documentation. (n.d.). _Installation_. Retrieved July 27, 2025, from [https://blowfish.page/docs/installation/](https://blowfish.page/docs/installation/)
 
-[3] GitHub Docs. (n.d.). _About GitHub Pages_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages "null")
+[3] GitHub Docs. (n.d.). _About GitHub Pages_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 
-[4] Ubuntu Community Help Wiki. (2022, November 2). _AptGet/Howto_. Retrieved July 27, 2025, from [https://help.ubuntu.com/community/AptGet/Howto](https://help.ubuntu.com/community/AptGet/Howto "null")
+[4] Ubuntu Community Help Wiki. (2022, November 2). _AptGet/Howto_. Retrieved July 27, 2025, from [https://help.ubuntu.com/community/AptGet/Howto](https://help.ubuntu.com/community/AptGet/Howto)
 
-[5] GitHub Desktop Community. (n.d.). _shiftkey/desktop repository_. Retrieved July 27, 2025, from [https://github.com/shiftkey/desktop](https://www.google.com/search?q=https://github.com/shiftkey/desktop "null")
+[5] GitHub Desktop Community. (n.d.). _shiftkey/desktop repository_. Retrieved July 27, 2025, from [https://github.com/shiftkey/desktop](https://github.com/shiftkey/desktop)
 
-[6] Visual Studio Code Documentation. (n.d.). _Running Visual Studio Code on Linux_. Retrieved July 27, 2025, from [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux "null")
+[6] Visual Studio Code Documentation. (n.d.). _Running Visual Studio Code on Linux_. Retrieved July 27, 2025, from [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
 
-[7] GitHub Docs. (n.d.). _Setting your username in Git_. Retrieved July 27, 2025, from [https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git "null")
+[7] GitHub Docs. (n.d.). _Setting your username in Git_. Retrieved July 27, 2025, from [https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git)
 
-[8] Chacon, S., & Straub, B. (2014). _Pro Git_ (2nd ed.). Apress. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2 "null")
+[8] Chacon, S., & Straub, B. (2014). _Pro Git_ (2nd ed.). Apress. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
-[9] Hugo Documentation. (n.d.). _Prerequisites_. Retrieved July 27, 2025, from [https://gohugo.io/getting-started/prerequisites/](https://www.google.com/search?q=https://gohugo.io/getting-started/prerequisites/ "null")
+[9] Hugo Documentation. (n.d.). _Prerequisites_. Retrieved July 27, 2025, from [https://gohugo.io/getting-started/prerequisites/](https://gohugo.io/getting-started/prerequisites/)
 
-[10] Hugo Documentation. (n.d.). _Install Hugo on Linux_. Retrieved July 27, 2025, from [https://gohugo.io/installation/linux/#snap](https://www.google.com/search?q=https://gohugo.io/installation/linux/%23snap "null")
+[10] Hugo Documentation. (n.d.). _Install Hugo on Linux_. Retrieved July 27, 2025, from [https://gohugo.io/installation/linux/#snap](https://gohugo.io/installation/linux/#snap)
 
-[11] Canonical Ltd. (n.d.). _Install Hugo for Linux using the Snap Store_. Retrieved July 27, 2025, from [https://snapcraft.io/hugo](https://snapcraft.io/hugo "null")
+[11] Canonical Ltd. (n.d.). _Install Hugo for Linux using the Snap Store_. Retrieved July 27, 2025, from [https://snapcraft.io/hugo](https://snapcraft.io/hugo)
 
-[12] Hugo Documentation. (n.d.). _Quick Start_. Retrieved July 27, 2025, from [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/ "null")
+[12] Hugo Documentation. (n.d.). _Quick Start_. Retrieved July 27, 2025, from [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)
 
-[13] GitHub Docs. (n.d.). _About GitHub Pages - Types of GitHub Pages sites_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites](https://www.google.com/search?q=https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages%23types-of-github-pages-sites "null")
+[13] GitHub Docs. (n.d.). _About GitHub Pages - Types of GitHub Pages sites_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites)
 
-[14] Chacon, S., & Straub, B. (2014). _Pro Git_ (2nd ed.). Apress. Chapter 2.1: Git Basics - Getting a Git Repository. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2 "null")
+[14] Chacon, S., & Straub, B. (2014). _Pro Git_ (2nd ed.). Apress. Chapter 2.1: Git Basics - Getting a Git Repository. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
-[15] Chacon, S., & Straub, B. (2014). _Pro Git_ (2nd ed.). Apress. Chapter 7.11: Git Tools - Submodules. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2 "null")
+[15] Chacon, S., & Straub, B. (2014). _Pro Git_ (2nd ed.). Apress. Chapter 7.11: Git Tools - Submodules. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
-[16] Blowfish Theme Documentation. (n.d.). _Configuration_. Retrieved July 27, 2025, from [https://blowfish.page/docs/configuration/](https://blowfish.page/docs/configuration/ "null")
+[16] Blowfish Theme Documentation. (n.d.). _Configuration_. Retrieved July 27, 2025, from [https://blowfish.page/docs/configuration/](https://blowfish.page/docs/configuration/)
 
-[17] Hugo Documentation. (n.d.). _Front Matter_. Retrieved July 27, 2025, from [https://gohugo.io/content-management/front-matter/](https://gohugo.io/content-management/front-matter/ "null")
+[17] Hugo Documentation. (n.d.). _Front Matter_. Retrieved July 27, 2025, from [https://gohugo.io/content-management/front-matter/](https://gohugo.io/content-management/front-matter/)
 
-[18] Hugo Documentation. (n.d.). _Basic Usage_. Retrieved July 27, 2025, from [https://gohugo.io/getting-started/usage/#development-server](https://www.google.com/search?q=https://gohugo.io/getting-started/usage/%23development-server "null")
+[18] Hugo Documentation. (n.d.). _Basic Usage_. Retrieved July 27, 2025, from [https://gohugo.io/getting-started/usage/#development-server](https://gohugo.io/getting-started/usage/#development-server)
 
-[19] Hugo Documentation. (n.d.). _Menus_. Retrieved July 27, 2025, from [https://gohugo.io/content-management/menus/](https://gohugo.io/content-management/menus/ "null")
+[19] Hugo Documentation. (n.d.). _Menus_. Retrieved July 27, 2025, from [https://gohugo.io/content-management/menus/](https://gohugo.io/content-management/menus/)
 
-[20] Hugo Documentation. (n.d.). _Hosting on GitHub Pages_. Retrieved July 27, 2025, from [https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/ "null")
+[20] Hugo Documentation. (n.d.). _Hosting on GitHub Pages_. Retrieved July 27, 2025, from [https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
-[21] GitHub Docs. (n.d.). _Workflow syntax for GitHub Actions_. Retrieved July 27, 2025, from [https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions "null")
+[21] GitHub Docs. (n.d.). _Workflow syntax for GitHub Actions_. Retrieved July 27, 2025, from [https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
 
-[22] GitHub Docs. (n.d.). _Configuring a publishing source for your GitHub Pages site_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site "null")
+[22] GitHub Docs. (n.d.). _Configuring a publishing source for your GitHub Pages site_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-[23] Blowfish Theme Documentation. (n.d.). _Getting Started_. Retrieved July 27, 2025, from [https://blowfish.page/docs/getting-started/](https://blowfish.page/docs/getting-started/ "null")
+[23] Blowfish Theme Documentation. (n.d.). _Getting Started_. Retrieved July 27, 2025, from [https://blowfish.page/docs/getting-started/](https://blowfish.page/docs/getting-started/)
 
-[24] Blowfish Theme Documentation. (n.d.). _Color Schemes_. Retrieved July 27, 2025, from [https://blowfish.page/docs/configuration/#color-schemes](https://www.google.com/search?q=https://blowfish.page/docs/configuration/%23color-schemes "null")
+[24] Blowfish Theme Documentation. (n.d.). _Color Schemes_. Retrieved July 27, 2025, from [https://blowfish.page/docs/configuration/#color-schemes](https://blowfish.page/docs/configuration/#color-schemes)
 
-[25] Blowfish Theme Documentation. (n.d.). _Advanced Customisation - Custom CSS_. Retrieved July 27, 2025, from [https://blowfish.page/docs/advanced-customisation/#custom-css](https://www.google.com/search?q=https://blowfish.page/docs/advanced-customisation/%23custom-css "null")
+[25] Blowfish Theme Documentation. (n.d.). _Advanced Customisation - Custom CSS_. Retrieved July 27, 2025, from [https://blowfish.page/docs/advanced-customisation/#custom-css](https://blowfish.page/docs/advanced-customisation/#custom-css)
 
-[26] Blowfish Theme Documentation. (n.d.). _Homepage Layout_. Retrieved July 27, 2025, from [https://blowfish.page/docs/homepage-layout/](https://blowfish.page/docs/homepage-layout/ "null")
+[26] Blowfish Theme Documentation. (n.d.). _Homepage Layout_. Retrieved July 27, 2025, from [https://blowfish.page/docs/homepage-layout/](https://blowfish.page/docs/homepage-layout/)
 
-[27] Blowfish Theme Documentation. (n.d.). _Advanced Customisation - Partials_. Retrieved July 27, 2025, from [https://blowfish.page/docs/advanced-customisation/#partials](https://www.google.com/search?q=https://blowfish.page/docs/advanced-customisation/%23partials "null")
+[27] Blowfish Theme Documentation. (n.d.). _Advanced Customisation - Partials_. Retrieved July 27, 2025, from [https://blowfish.page/docs/advanced-customisation/#partials](https://blowfish.page/docs/advanced-customisation/#partials)
 
-[28] Blowfish Theme Documentation. (n.d.). _Shortcodes_. Retrieved July 27, 2_025, from [https://blowfish.page/docs/shortcodes/](https://blowfish.page/docs/shortcodes/ "null")
+[28] Blowfish Theme Documentation. (n.d.). _Shortcodes_. Retrieved July 27, 2025, from [https://blowfish.page/docs/shortcodes/](https://blowfish.page/docs/shortcodes/)
 
-[29] Blowfish Theme Documentation. (n.d.). _Shortcodes - Alert_. Retrieved July 27, 2025, from [https://blowfish.page/docs/shortcodes/#alert](https://www.google.com/search?q=https://blowfish.page/docs/shortcodes/%23alert "null")
+[29] Blowfish Theme Documentation. (n.d.). _Shortcodes - Alert_. Retrieved July 27, 2025, from [https://blowfish.page/docs/shortcodes/#alert](https://blowfish.page/docs/shortcodes/#alert)
 
-[30] GitHub Docs. (n.d.). _Managing a custom domain for your GitHub Pages site_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site "null")
+[30] GitHub Docs. (n.d.). _Managing a custom domain for your GitHub Pages site_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
-[31] GitHub Docs. (n.d.). _About custom domains and GitHub Pages_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages "null")
+[31] GitHub Docs. (n.d.). _About custom domains and GitHub Pages_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
 
-[32] Cloudflare Docs. (n.d.). _Manage DNS records_. Retrieved July 27, 2025, from [https://developers.cloudflare.com/dns/manage-dns-records/](https://developers.cloudflare.com/dns/manage-dns-records/ "null")
+[32] Cloudflare Docs. (n.d.). _Manage DNS records_. Retrieved July 27, 2025, from [https://developers.cloudflare.com/dns/manage-dns-records/](https://developers.cloudflare.com/dns/manage-dns-records/)
 
-[33] Cloudflare Docs. (n.d.). _Proxied DNS records_. Retrieved July 27, 2025, from [https://developers.cloudflare.com/dns/manage-dns-records/reference/proxied-dns-records/](https://developers.cloudflare.com/dns/manage-dns-records/reference/proxied-dns-records/ "null")
+[33] Cloudflare Docs. (n.d.). _Proxied DNS records_. Retrieved July 27, 2025, from [https://developers.cloudflare.com/dns/manage-dns-records/reference/proxied-dns-records/](https://developers.cloudflare.com/dns/manage-dns-records/reference/proxied-dns-records/)
 
-[34] GitHub Docs. (n.d.). _Securing your GitHub Pages site with HTTPS_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https "null")
+[34] GitHub Docs. (n.d.). _Securing your GitHub Pages site with HTTPS_. Retrieved July 27, 2025, from [https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
 
-[35] Cloudflare Docs. (n.d.). _SSL/TLS encryption modes_. Retrieved July 27, 2025, from [https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/ "null")
+[35] Cloudflare Docs. (n.d.). _SSL/TLS encryption modes_. Retrieved July 27, 2025, from [https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/)
 
-[36] Hugo Documentation. (n.d.). _Content Management_. Retrieved July 27, 2025, from [https://gohugo.io/content-management/](https://gohugo.io/content-management/ "null")
+[36] Hugo Documentation. (n.d.). _Content Management_. Retrieved July 27, 2025, from [https://gohugo.io/content-management/](https://gohugo.io/content-management/)

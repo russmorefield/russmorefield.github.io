@@ -30,7 +30,7 @@ This guide walks through the full setup of a **BIND9 authoritative DNS server** 
 
 ```bash
 sudo apt update
-sudo apt install bind9 bind9utils -y
+sudo apt install bind9 bind9-utils -y
 sudo systemctl status bind9
 ```
 
@@ -103,7 +103,28 @@ Create the zone file:
 sudo nano /etc/bind/db.example.local
 ```
 
-Include `A` and `CNAME` records.
+Paste the following, adjusting hostnames and IPs to match your network:
+
+```dns
+$TTL    604800
+@       IN      SOA     bind9.example.local. admin.example.local. (
+                              2         ; Serial (increment on every change)
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; Name servers
+@       IN      NS      bind9.example.local.
+
+; A records
+bind9   IN      A       192.168.1.10
+gateway IN      A       192.168.1.1
+server  IN      A       192.168.1.20
+
+; CNAME records
+dns     IN      CNAME   bind9.example.local.
+```
 
 ---
 
@@ -115,7 +136,25 @@ Create the reverse zone file:
 sudo nano /etc/bind/db.192.168.1
 ```
 
-Include `PTR` records for reverse DNS.
+Paste the following, with `PTR` records matching the `A` records from the forward zone:
+
+```dns
+$TTL    604800
+@       IN      SOA     bind9.example.local. admin.example.local. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; Name servers
+@       IN      NS      bind9.example.local.
+
+; PTR records
+10      IN      PTR     bind9.example.local.
+1       IN      PTR     gateway.example.local.
+20      IN      PTR     server.example.local.
+```
 
 ---
 

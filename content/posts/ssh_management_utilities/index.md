@@ -61,8 +61,8 @@ fi
 if grep -q "PermitRootLogin prohibit-password" "$SSHD_CONFIG"; then
      echo "PermitRootLogin updated."
 else
-     error_exit "Failed to update setting. Restoring from backup."
      cp "$BACKUP_FILE" "$SSHD_CONFIG"
+     error_exit "Failed to update setting. Restored from backup."
 fi
 
 echo "Restarting SSH service..."

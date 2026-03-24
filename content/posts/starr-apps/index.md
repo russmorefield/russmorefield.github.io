@@ -82,6 +82,14 @@ Ubuntu 24.04 LTS includes a modern kernel (6.8 or newer) that supports the Intel
   sudo apt update && sudo apt upgrade -y
   ```
 
+2. Install Intel Media Driver and Verification Tools:
+
+  Install the non-free Intel media driver for VA-API support and the `vainfo` utility for verification.
+
+  ```bash
+  sudo apt install intel-media-va-driver-non-free vainfo -y
+  ```
+
 After installing the software, it is crucial to verify that the driver is loaded correctly and that the GPU's low-level firmware is operational.
 
 
@@ -435,6 +443,7 @@ services:
       - FIREWALL_VPN_INPUT_PORTS=6881
     ports:
       - 8888:8888/tcp # Gluetun web UI
+      - 8082:8082/tcp # qBittorrent WebUI (routed through Gluetun)
       - 6881:6881
       - 6881:6881/udp
     volumes:
