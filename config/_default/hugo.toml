@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 title = "Russell Morefield"
-theme = "blowfish" # UNCOMMENT THIS LINE
+theme = "blowfish"
 baseURL = "https://www.russmorefield.com/"
 defaultContentLanguage = "en"
 

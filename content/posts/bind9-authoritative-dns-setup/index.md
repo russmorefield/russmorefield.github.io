@@ -4,8 +4,8 @@ draft = false
 title = '🧭 BIND9 Authoritative DNS Server Setup for `example.local`'
 tags = ['bind9','ubuntu']
 layout = 'post'
-catagories = ['dns']
-summmary = 'This tutorial will guide you through the complete installation and configuration of a BIND9 authoritative DNS server on an Ubuntu 24.04 VM.'
+categories = ['dns']
+summary = 'This tutorial will guide you through the complete installation and configuration of a BIND9 authoritative DNS server on an Ubuntu 24.04 VM.'
 +++
 
 This guide walks through the full setup of a **BIND9 authoritative DNS server** on Ubuntu 24.04. It will:

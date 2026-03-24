@@ -48,12 +48,8 @@
   ],
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/archetypes",
-      "title": "archetypes"
-    },
-    {
-      "title": "blowfish",
-      "path": "[[workspace]]/themes/blowfish"
+      "path": "[[workspace]]/content",
+      "title": "Content"
     }
   ],
   "frontMatter.content.publicFolder": "static",

@@ -3,6 +3,7 @@ title = 'A Guide to Building and Deploying a Hugo Website'
 date = '2025-07-27T16:05:00-04:00'
 draft = false
 tags = ['hugo', 'github', 'deployment', 'static site', 'blowfish']
+categories = ['web']
 summary = 'Step-by-step guide to building a Hugo website using the Blowfish theme and deploying it on GitHub Pages.'
 layout = 'post'
 +++

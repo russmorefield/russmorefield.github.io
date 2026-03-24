@@ -59,13 +59,13 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [author]
   name = "Russell Morefield"
-  image = "img/me-edit.png" # Example path, place your image in assets/img/profile.jpg
-  favicon = "img/me-edit.png" # Example path, place your favicon in assets/img/favicon.png
+  image = "img/me-edit.png"
+  favicon = "img/me-edit.png"
   headline = "Exploring Technology, Development and Life"
   bio = "A brief biography about Russ Morefield."
   links = [
     { github = "https://github.com/russmorefield" },
-    { linkedin = "https://linkedin.com/in/yourprofile" },
+    { linkedin = "https://linkedin.com/in/russmorefield" },
   ]
 
 [article]

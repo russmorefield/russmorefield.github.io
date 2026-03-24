@@ -3,6 +3,7 @@ title = 'SSH Management Utilities'
 date = '2025-07-26'
 draft = false
 tags = ["SSH", "security", "linux", "windows", "utilities"]
+categories = ['linux']
 summary = "Guides and scripts for securing and managing SSH configurations, keys, and connections."
 layout = 'post'
 +++
