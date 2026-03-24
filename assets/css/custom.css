@@ -1,0 +1,19 @@
+/* Header logo: round and smaller */
+img.logo {
+  border-radius: 50% !important;
+  max-height: 2.5rem !important;
+  max-width: 2.5rem !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  object-fit: cover !important;
+}
+
+/* Subtle glass effect on fixed header */
+#menu-blur {
+  opacity: 1 !important;
+  backdrop-filter: blur(12px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+  background: rgba(13, 13, 28, 0.45) !important;
+  border-bottom: 1px solid rgba(147, 51, 234, 0.08);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2) !important;
+}

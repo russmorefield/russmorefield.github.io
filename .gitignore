@@ -11,3 +11,16 @@ node_modules
 
 # Hugo
 public
+
+# Hugo build cache
+resources/_gen/
+
+# Claude/Playwright tooling
+.claude/
+.playwright-mcp/
+
+# Draft content
+drafts/
+
+# Debug screenshots
+screenshot-*.png

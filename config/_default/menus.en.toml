@@ -16,13 +16,18 @@
   weight = 10
 
 [[main]]
-  name = "Tableau Portfolio"
-  pageRef = "/tableau"
+  name = "Tech"
+  pageRef = "/posts/tech/"
+  weight = 12
+
+[[main]]
+  name = "Commentary"
+  pageRef = "/posts/commentary/"
   weight = 15
 
 [[main]]
   name = "About Me"
-  pageRef = "/about"  # Corrected path, no.md
+  pageRef = "/about"
   weight = 20
 
 #[[main]]
