@@ -24,7 +24,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # This token is automatically provided by GitHub and has the necessary permissions
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -39,9 +39,9 @@ jobs:
         run: echo "CURRENT_VERSION=$(cat VERSION)" >> $GITHUB_ENV
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install SemVer Tool
         run: npm install -g semver
