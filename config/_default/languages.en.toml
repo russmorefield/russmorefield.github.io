@@ -12,15 +12,15 @@ title = "Russell Morefield"
   logo = "img/me-artdeco.jpg"
   secondaryLogo = "img/1.png"
   description = "Russell Morefield's personal website"
-  copyright = "&copy; 2025 Russell Morefield"
+  copyright = "&copy; 2026 Russell Morefield"
 
 [params.author]
   name = "Russell Morefield"
   email = "russ@rlmx.tech"
   image = "img/me-artdeco.jpg"
   imageQuality = 96
-  headline = "IT/Data Analyst | Homelab Builder | Geopolitical Commentator"
-  bio = "20+ years in technology. Building infrastructure, analyzing data, writing about the things that matter."
+  headline = "Infrastructure & AI Engineer | Homelab Builder | Geopolitical Commentator"
+  bio = "I build the infrastructure and write the code that runs on it. 20+ years in technology..from server racks to production applications."
    links = [
     { email = "mailto:russ.morefield@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
