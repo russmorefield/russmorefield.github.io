@@ -61,8 +61,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   name = "Russell Morefield"
   image = "img/me-artdeco.jpg"
   favicon = "img/me-artdeco.jpg"
-  headline = "IT/Data Analyst | Homelab Builder | Geopolitical Commentator"
-  bio = "20+ years in technology. Building infrastructure, analyzing data, writing about the things that matter."
+  headline = "Infrastructure & AI Engineer | Homelab Builder | Geopolitical Commentator"
+  bio = "20+ years in technology. Building infrastructure, engineering AI systems, writing about the things that matter."
   links = [
     { github = "https://github.com/russmorefield" },
     { linkedin = "https://linkedin.com/in/russmorefield" },
@@ -165,11 +165,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # enableTrackEvent = true
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
+  identifier = "russmorefield"
+  globalWidget = true
+  globalWidgetMessage = "Support my work!"
+  globalWidgetColor = "#BD5FFF"
+  globalWidgetPosition = "Right"
 
 [verification]
   # google = ""
